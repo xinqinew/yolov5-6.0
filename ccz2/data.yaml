@@ -1,0 +1,5 @@
+train: ./ccz2/train/images
+val: ./ccz2/train/images
+
+nc: 1
+names: ['soldier']
