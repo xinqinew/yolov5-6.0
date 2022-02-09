@@ -22,6 +22,7 @@ while True:
     cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)  # 创建窗口
     cv2.resizeWindow(window_name, RESIZE_WIN_WIDTH, RESIZE_WIN_HEIGHT)
     cv2.imshow(window_name, img)  # 显示窗口
+
     k = cv2.waitKey(1)
     if k % 256 == 27:  # ESC
         cv2.destroyAllWindows()
